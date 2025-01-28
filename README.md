@@ -64,7 +64,7 @@ You can deploy this bot for free on the following platforms:
 You can set up a continuous integration workflow by creating a ```.github/workflows/nodejs.yml``` file with the following content:
 
 ```yaml
-hi
+.github/workflows/nodejs.yml
 ```
 
 ```yaml
