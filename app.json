@@ -12,13 +12,7 @@
       "required": true,
       "value": ""
       
-    },
-    "MONGODB": {
-      "description": "Put your MongoDB Database URL here.",
-      "required": true,
-      "default": ""
-
-    },
+    },    
     "OWNER_NUMBER": {
       "description": "Owner Number.",
       "required": true,
