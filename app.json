@@ -1,26 +1,23 @@
 {
-  "name": "LAKA-MD-V1",
-  "description": "ᴘᴏᴡᴇʀᴇᴅ ʙʏ ʟᴀᴋᴀ-ᴍᴅ 🐣🖇️",
+  "name": "LAKA-MD",
+  "description": "Javascript WhatsApp bot made by Lasmitha",
   "logo": "https://i.ibb.co/sKmDFhk/7919.jpg",
   "keywords": ["bot"],
   "success_url": "/",
 
-    "stack": "container",
   "env": {
     "SESSION_ID": {
       "description": "Put the session-id here.",
-      "required": true,
-      "value": ""
-      
+      "required": true
     },
-    
-    "OWNER_NUMBER": {
-      "description": "Owner Number.",
-      "required": true,
-      "default": "94781121579"
-      
-    }
- 
+"OWNER_NUMBER": {
+      "description": "Put the owner number",
+      "required": true
+    } ,
+    "AUTO_STATUS_MSG": {
+      "description": "Put the whatsapp status msg",
+      "required": true
+    } 
 },
 
      "buildpacks": [
