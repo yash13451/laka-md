@@ -1,29 +1,23 @@
 {
   "name": "LAKA-MD",
-  "description": "Javascript WhatsApp bot made by Lasmitha",
+  "description": "LAKA-MD👨‍💻",
   "logo": "https://i.ibb.co/sKmDFhk/7919.jpg",
-  "keywords": ["bot"],
+  "keywords": ["lakamd", "bot", "whatsapp bot", "multi device", "laka-md"],
   "success_url": "/",
 
   "env": {
     "SESSION_ID": {
-      "description": "Put the session-id here.",
-      "required": true
+            "description": "Type the Session-ID you got from scaning QR",
+            "required": true,
+            "value": "put session id here"
+        }
     },
-"OWNER_NUMBER": {
-      "description": "Put the owner number",
-      "required": true
-    } ,
-    "AUTO_STATUS_MSG": {
-      "description": "Put the whatsapp status msg",
-      "required": true
-    } 
-},
-
-     "buildpacks": [
+         "buildpacks": [
         {
             "url": "https://github.com/heroku/heroku-buildpack-nodejs.git"
         }
      ],
   "stack": "heroku-24"
+  
+  
 }
