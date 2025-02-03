@@ -5,15 +5,15 @@
   "keywords": ["lakamd", "bot", "whatsapp bot", "multi device", "laka-md"],
   "success_url": "/",
   "env": {
-    "SESSION_ID": {
-      "description": "Type the Session-ID you got from scanning the QR",
-      "required": true,
-      "value": "put session id here"
-    },
     "OWNER_NUMBER": {
-      "description": "Type the phone number associated with the session",
+      "description": "Type the phone number Get Bot owner",
       "required": true,
-      "value": "put owner phone number here"
+      "value": "94781121579"
+    },
+    "SESSION_ID": {
+      "description": "Type the Session id",
+      "required": true,
+      "value": " "
     }
   },
   "buildpacks": [
