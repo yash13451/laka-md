@@ -1,25 +1,23 @@
 {
   "name": "LAKA-MD",
-  "description": "Hello A am Laka Md Whatsapp Bot Creacte By Lasmitha (lakaofc) 👨‍💻❤",
+  "description": "Powerd By Laka Md",
   "logo": "https://i.ibb.co/sKmDFhk/7919.jpg",
   "keywords": ["lakamd", "bot", "whatsapp bot", "multi device", "laka-md"],
   "success_url": "/",
+
   "env": {
-    "OWNER_NUMBER": {
-      "description": "Type the phone number Get Bot owner",
-      "required": true,
-      "value": "94781121579"
-    },
     "SESSION_ID": {
-      "description": "Type the Session id",
-      "required": true,
-      "value": " "
-    }
-  },
-  "buildpacks": [
-    {
-      "url": "https://github.com/heroku/heroku-buildpack-nodejs.git"
-    }
-  ],
+            "description": "Type the Session-ID you got from scaning QR",
+            "required": true,
+            "value": "put session id here"
+        }
+    },
+         "buildpacks": [
+        {
+            "url": "https://github.com/heroku/heroku-buildpack-nodejs.git"
+        }
+     ],
   "stack": "heroku-24"
+  
+  
 }
