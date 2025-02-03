@@ -13,6 +13,7 @@ AUTO_STATUS_MSG: process.env.AUTO_STATUS_MSG || "𝐘𝐨𝐮𝐫 𝐒𝐭𝐚�
 
 //=================================================
 //මෙවා defult එවා කැමතිනම් false and true විතරක් වෙනස් කරගන්න..✨
+//නැත්තම් bot deploy කරහම .settings comade එක use කරලත් වෙනස් කරගන්න පුලුවන්..🎊
 
 PREFIX: process.env.PREFIX || '.' ,
 OWNER_NUMBER: process.env.OWNER_NUMBER === undefined ? '94781121579' : process.env.OWNER_NUMBER,
