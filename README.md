@@ -40,7 +40,7 @@ You will need a session ID to run the LAKA=MD. Click the button below to obtain 
 
 > **Get Pair Code (Session ID)**
 
-<a href='https://lakamdpair-0a0f13011098.herokuapp.com/' target="_blank">
+<a href='http://lionnight.lk:1111/' target="_blank">
   <img alt='Pairing Code' src='https://img.shields.io/badge/Get%20Pairing%20Code-0076D2?style=for-the-badge&logo=opencv&logoColor=black'/>
 </a>
 <br> 
