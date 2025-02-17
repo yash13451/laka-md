@@ -57,51 +57,6 @@ You can deploy this bot for free on the following platforms:
 
 [<img src='https://img.shields.io/badge/Deploy%20to%20Glitch-grey?style=for-the-badge&logo=glitch&logoColor=white' width=150 height=28 />](https://glitch.com/edit/#!/import/github/lakaofc/laka-md)
 
-### GitHub Actions Workflows
-
-#### Node.js CI
-
-You can set up a continuous integration workflow by creating a ```.github/workflows/nodejs.yml``` file with the following content:
-
-```yaml
-.github/workflows/nodejs.yml
-```
-
-```yaml
-name: Node.js CI
-
-on:
-  push:
-    branches:
-      - main
-  pull_request:
-    branches:
-      - main
-
-jobs:
-  build:
-
-    runs-on: ubuntu-latest
-
-    strategy:
-      matrix:
-        node-version: [20.x]
-
-    steps:
-    - name: Checkout repository
-      uses: actions/checkout@v3
-
-    - name: Set up Node.js
-      uses: actions/setup-node@v3
-      with:
-        node-version: ${{ matrix.node-version }}
-
-    - name: Install dependencies
-      run: npm install
-
-    - name: Start application
-      run: npm start
-```
 
 ## 🔗 LAKA-MD INFO
 
